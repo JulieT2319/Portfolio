@@ -1,0 +1,2 @@
+change html elements for header and footer to header and footer.
+get images for portfolio projects
