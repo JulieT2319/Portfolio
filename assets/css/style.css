@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/country-quilt.png);
+    margin: 0;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+header, .header{
+    background-color: #ffffff;
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
