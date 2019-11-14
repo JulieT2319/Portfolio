@@ -11,13 +11,16 @@ body{
     margin: 0;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
     border-bottom: #777777 solid 2px;
     margin: 0 auto;
 }
-
+h3{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 200px;
+}
 input[type=submit]{
     background-color: #4aaaa5;
     padding: 10px 20px;
@@ -28,10 +31,13 @@ input[type=submit]{
 
 img{
     width: 200px;
-    height: auto;
+    height: 133.33px;
     margin-bottom: 0;
 }
 
+.head-shot{
+    height: auto;
+}
 .name{
     background-color: #4aaaa5;
     padding: 25px;
@@ -39,15 +45,24 @@ img{
     color: #ffffff;
     border: none;
     display: inline-block; 
+    
 }
 
 nav a {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
+    color: #777777;
+    padding: 0 10px;
+    text-decoration-line: none;
+    border-left: #777777 solid 1px;
+}
+a:first-child{
+    border: none;
 }
 .header-links{
         float: right;
 }
+
 
 .container{
     width: 960px;
@@ -59,6 +74,13 @@ nav a {
     margin: 0 auto;
     background: #ffffff;
     padding: 15px;
+    border: solid #dddddd;
+    overflow: auto;
+    /* min-height: 100%; */
+}
+
+.main-container h1{
+    margin-bottom: 10px;
 }
 .main{
     margin-top: 25px;
@@ -112,4 +134,23 @@ p{
     border: none;
     text-align: center;
     vertical-align: middle;
+}
+
+.img-container{
+    position: relative;
+    margin: 20px;
+    float: left;
+    /* overflow: hidden; */
+}
+
+.row{
+    clear: both;
+}
+.text-block{
+    position: absolute;
+    bottom: 20px;
+}
+
+footer p{
+    margin-bottom: 0;
 }
